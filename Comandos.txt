@@ -1,0 +1,33 @@
+git init -> Inicia el proyecto
+git add -> Lleva el archivo a un seguimiento 
+git commit -> Translada el archivo a el área del repositorio local
+git status -s -> Muestra todos los achivos que estan en la carpeta del proyecto
+git add -> Añade el/los archivos
+    [
+        git add . -> Añade todos los archivos
+    ]
+git commit -m "Comienzo del proyecto" -> Hace la captura de los archivos en seguimiento (el comando -m Es para insertar un comentario)
+
+Nota: 
+{
+    Al usar por primera vez la consola de Git, pedirá un username y un email, esto se introduce de la siguiente manera:
+    git config --global user.email "example@emal.com" //Introducir el email
+    got config --golbal user.name ""Your name" //Introducir el/tu nombre
+
+    Al modificar e intentar hacer otraa copia se debe preparar el archivo agregandolo una vez más con el comando «git add nombre»
+}
+
+git log --oneline -> Nos manda todas las copias con el titulo correspondiente. A cada una de las copiar se le asigna un codigo para que pueda ser distinguido de los otros, seguido de su nombre/titulo que fue insertado con «git commit -m "titulo/nombre" <- Este será el nombre que aparece cuando pongamos el cogigo»
+    Ejemplo:
+    [
+        57b45e7 (Head -> master) Agregado titulo y parrafo
+        ¶Cógido¶ -> ¶Quies hizo el cambio¶ -> ¶Nombre / -m "titulo"¶
+    ]
+
+
+git reset --hard  "Codigo asignado a la captura/respaldo" -> Restaura a un punto que haya sido huardado     
+    Nota:
+    [
+        Al hacer un backup se pierden algunos respaldos
+    ]
+
