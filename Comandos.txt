@@ -31,3 +31,13 @@ git reset --hard  "Codigo asignado a la captura/respaldo" -> Restaura a un punto
         Al hacer un backup se pierden algunos respaldos
     ]
 git commit -am "Titulo/nombre" -> Agrega los archivos y hace un comentario en un solo comando (Así no es necesario hacer el comando git add «nombre» y posteriormente el comando git commit «nombre/titulo»)
+
+git commit --amend -> Este comando habre el editos VIM, que puede ser utilizado en caso de cometer un error con un commit, para poder cambiarlo
+    Nota
+    [
+        Para ediar: Una vex abierto el editor utilizaremos el comando «:i» (El comando se escribe en la parte inferior).
+        Se pulsa cualquier tecla, pulsamos la tecla suprimir par borrar la descripcion pulsamos la tecla ESC.
+        una vez hecho esto utilizamos de nuevo el comando i: para editar, y puedes comenzar a escribir una nueva descripción después pulsamos la tecla ENTER y tecla ESC (La descripcion aparecerá en la parte superior)
+
+        Para salir y guardar cmbios: «:wq»
+    ]
