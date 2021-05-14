@@ -30,4 +30,4 @@ git reset --hard  "Codigo asignado a la captura/respaldo" -> Restaura a un punto
     [
         Al hacer un backup se pierden algunos respaldos
     ]
-
+git commit -am "Titulo/nombre" -> Agrega los archivos y hace un comentario en un solo comando (Así no es necesario hacer el comando git add «nombre» y posteriormente el comando git commit «nombre/titulo»)
