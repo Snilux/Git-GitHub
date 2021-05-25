@@ -41,3 +41,5 @@ git commit --amend -> Este comando habre el editos VIM, que puede ser utilizado 
 
         Para salir y guardar cmbios: «:wq»
     ]
+Para subir un proyecto a GitHub
+Se deberá crear un repositorio y copiar el segundo link agregarlo a la consola, si es la primera vez que haces este procedimiento por primera vez, deberá aparecer un login de GitHub, se debe completar, si esto no ocurre ejecuta este comando  $ git push origin master y aparecerá. 
